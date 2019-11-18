@@ -12,9 +12,9 @@ variable "protocol" {
   
 }
 variable "ports" {
-  type = "list"
+  type = list
 }
 
 variable "target_tags" {
-  type = "list"
+  type = list
 }
